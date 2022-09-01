@@ -1,0 +1,85 @@
+/insert_record_mysql'
+
+{
+    "DB_Name" : "gunjan",
+    "Table_Name" : "details",
+    "EMP_ID" : 101,
+    "EMP_Name" : "Gunjan Varde",
+    "EMAIL" : "xyz@gmail.com",
+    "SALARY" : 200,
+    "Attendance" : 25
+}
+
+/update_record_mysql'
+
+{
+    "DB_Name" : "gunjan",
+    "Table_Name" : "details",
+    "Updated_Attendance" : 22,
+    "Attendance" : 25
+}
+
+'/delete_record_mysql'
+
+{
+    "DB_Name" : "gunjan",
+    "Table_Name" : "details",
+    "EMP_Name" : "Gunjan Varde"
+}
+
+'/fetch_record_mysql'
+
+{
+    "DB_Name" : "gunjan",
+    "Table_Name" : "details"
+}
+
+
+
+'/insert_record_mongodb'
+
+{
+    "DB_Name" : "Mongodb_API",
+    "Table_Name" : "details",
+    "emp_name" : "gunjan",
+    "mailid" : "xyz@yahoo.com",
+    "sirname" : "varde",
+    "subject_list" : ["deep learning" , "big data" , "machine learning"]
+}
+
+{
+    "DB_Name" : "Mongodb_API",
+    "Table_Name" : "details",
+    "emp_name" : "Andrew",
+    "mailid" : "xyz@yahoo.com",
+    "sirname" : "NG",
+    "subject_list" : ["deep learning" , "big data" , "machine learning"]
+}
+
+'/update_record_mongodb'
+
+{
+    "DB_Name" : "Mongodb_API",
+    "Table_Name" : "details",
+    "emp_name" : "gunjan",
+    "subject_list" : ["deep learning" , "big data" , "machine learning"],
+    "updated_emp_name" : "GUNJAN",
+    "updated_subject_list" : ["DL", "DS", "ML", "DE"]
+
+}
+
+'/delete_record_mongodb'
+
+{
+    "DB_Name" : "Mongodb_API",
+    "Table_Name" : "details",
+    "emp_name" : "Andrew"
+}
+
+'/fetch_record_mongodb'
+
+{
+    "DB_Name" : "Mongodb_API",
+    "Table_Name" : "details"
+}
+
